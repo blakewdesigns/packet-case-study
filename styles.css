@@ -1,0 +1,221 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color:rgb(8, 22, 43);
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(white, rgb(199, 199, 199));
+    width: 100%;
+}
+
+body > * {
+    box-sizing:border-box;
+}
+
+body h2{
+    color:#464646;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.navwrapper {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+}
+
+.navwrapper a:hover {
+    color:white;
+    background-color: #f61067;
+    border-style:none;
+    padding: 10px;
+}
+
+.hero {
+    width: 100%;
+    padding: 125px 0 0 0;
+}
+
+.logo {
+    justify-content: center;
+    display: flex;
+}
+
+#packetlogo {
+    height: 300px;
+    width: auto;
+}
+
+h1 {
+    color:#f61067;
+    font-weight:bold;
+    font-size: 80px
+}
+
+h3 {
+    color:#741cff;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.content {
+    align-content: center;
+}
+
+.paragraph1 {
+    min-width:50%;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.homescreen {
+    display: flex;
+}
+
+.homescreen img {
+    width: 100%;
+    height: auto;
+    margin-left: 75px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.beside {
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraph2 {
+    max-width: 70%;
+    margin: 125px;
+}
+
+.paragraph3 {
+    max-width: 60%;
+}
+
+#personas {
+    text-align: center;
+    margin-top: 125px;
+}
+
+.people {
+    display: flex;
+    justify-content: center;
+}
+
+.people2 {
+    display: flex;
+    justify-content: center;
+}
+
+.persona {
+    padding: 30px;
+}
+
+#wireframes {
+    text-align: center;
+    margin: 125px;
+}
+
+.wire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fullwire img {
+    object-fit: contain;
+    height: auto;
+}
+
+#title {
+    text-align: center;
+    max-width: 100%;
+}
+
+#header1 {
+    max-width: 100%;
+    margin-top: 130px;
+    font-size: 25px;
+    text-align: center;
+}
+
+li a {
+    display: inline;
+    border-color: rgb(8, 22, 43);
+    border-style: solid;
+    padding: 8px;
+    border-radius: 5px;
+    border-width: thin 2px;
+}
+
+li {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(8, 22, 43)
+}
+
+@media (max-width: 1200px) {
+    li {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 920px) {
+    .people {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .people2 {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
+
+@media (max-width: 775px) {
+    .navigation {
+        display: block;
+    }
+    .hero {
+        padding: 350px 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .people {
+        display: block;
+    }
+    .people2 {
+        display: block;
+    }
+}

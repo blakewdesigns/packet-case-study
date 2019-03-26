@@ -1,0 +1,92 @@
+html{
+    font-size: 18px;
+}
+
+html body{
+    margin: 0px;
+    padding: 0;
+}
+
+body{
+    color:rgb(8, 22, 43);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    background-image: linear-gradient(white, rgb(199, 199, 199));
+    width: 100%;
+}
+
+body > *{
+    width: 100%;
+}
+
+body h1{
+    color:#f61067;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top:0px;
+    margin-top: 5px;
+}
+
+body h2{
+    color:#464646;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 25px;
+    padding-top:30px;
+}
+
+body h3{
+    color:#741cff;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+body img {
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.navbar .navwrapper {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+
+.navwrapper li{
+    margin: 20px;
+}
+
+.navwrapper a{
+    text-decoration: none;
+    color: rgb(8, 22, 43);
+    border-color: rgb(8, 22, 43);
+    border-style: solid;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: thin 2px;
+}
+
+.navwrapper a:hover {
+    color:white;
+    background-color: #f61067;
+    border-style:none;
+    padding: 5px;
+}
+
+.content{
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.hero{
+    padding: 20px 25px;
+}
+
+.stack h3{
+    padding-top:100px;
+}
