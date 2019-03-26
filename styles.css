@@ -182,7 +182,7 @@ a {
     text-decoration: none;
     color: rgb(8, 22, 43)
 }
-
+/* fix all this stuff, for example, as time would tell, all good things come with practice and code*/
 @media (max-width: 1200px) {
     li {
         padding: 15px;
