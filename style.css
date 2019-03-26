@@ -9,8 +9,8 @@ html body{
 
 body{
     color:rgb(8, 22, 43);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
+    font-family: 'Open Sans';
+    font-size: 1rem;
     background-image: linear-gradient(white, rgb(199, 199, 199));
     width: 100%;
 }
