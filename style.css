@@ -38,6 +38,14 @@ body h3{
     font-size: 1.25rem;
 }
 
+body p{
+    padding: 40px;
+}
+
+h3{
+    text-align: center;
+}
+
 img {
     width: 100%;
 }
@@ -85,6 +93,11 @@ wrapper {
     padding: 12px;
 }
 
+#icon{
+    max-width:65px;
+    padding: 0px;
+}
+
 .content{
     margin: 0 auto;
     display: inline-block;
@@ -95,11 +108,26 @@ wrapper {
     max-width: 400px;
     margin: 0 auto;
 }
- 
 
+.pwrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pwrapper div {
+    padding: 10px;
+}
+
+.pwrapper img{
+    padding: 10px 0;
+}
 
 .stack h3{
     padding-top:100px;
+}
+
+.radar{
+    padding: 40px;
 }
 
 @media (min-width: 800px){
@@ -107,9 +135,16 @@ wrapper {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-       
-
     }
+
+    .navwrapper>a{
+        border: none;
+    }
+
+    .navwrapper>a:hover{
+        padding:10px;
+    }
+
     .hero{
         padding: 50px 25px opx;
     }
